@@ -1,0 +1,101 @@
+%
+%---------------------------------
+%   PACKAGES AND CONFIGURATIONS
+%---------------------------------
+
+\documentclass{resume}
+
+\usepackage[left=0.5 in,top=0.3in,right=0.5 in,bottom=0.3in]{geometry} % Margins
+\usepackage{amssymb}
+\usepackage{chemformula}
+
+\name{Armando Arevalo} % Name
+\address{\Large a.arevalo3e8@gmail.com \\ \Large (619) 713-8214 \\ \Large Rancho Cucamonga, CA}  % Email, phone number, and location
+
+%---------------------------------------------------------------------------------
+%   START OF DOCUMENT
+%---------------------------------------------------------------------------------
+
+\begin{document}
+
+%--------------------
+%	WORK EXPERIENCE
+%--------------------
+
+\begin{Section}{Work Experience}
+
+%-------------------
+%   InCyle Section
+%-------------------
+
+\begin{workSection} {InCylce Software Inc}{Aug. 2022}{Feb. 2023}{Data Science Intern}{Remote}
+
+\item My project comprised building a dashboard for company sales data to inform sales team on: deal velocity through sales pipeline, likelihood-to-close successfully, and high-touch/low-touch client interaction to redirect efforts. 
+\item Using \textbf{Azure Databricks} to perform EDA, preprocess raw data, anonymize sensitive information to prevent data leakage risks, calculate deal velocity and rolling-mean velocity, apply Naïve Bayes ML algorithms to build models to predict likelihood-to-close at each step in sales pipeline, leverage temporal features to classify deals as high or low touch, organize trained models and notebook’s input and output data in well-structured Delta table folder system. 
+\item Design a \textbf{Power BI} dashboard having charts and tables that summarize deployed processed data, at both all-deals level and single-deal level, integrating drill-through capabilities. 
+\item Using \textbf{Azure Data Factory} to automate processing and deployment of new data to dashboard each week utilizing an orchestration pipeline that triggers when new data is available, finalizing by sending Outlook notifications upon successful execution.
+\item Use Azure DevOps to track weekly progress, use repos to backup code, and document project with schematics in MS Visio and workflow outlines in Markdown.
+
+\end{workSection}
+
+%-------------------------
+%   Analytis Lab Section
+%-------------------------
+\begin{workSection}{James Analytis Condensed Matter Physics Lab, at UC Berkeley}{Jan. 2020}{Aug. 2021}{Undergraduate Researcher}{Berkeley, CA}
+
+ \item  Prepare \ch{RuCl3} crystal samples for analysis by grinding and using microscope to achieve micron-level thickness, masking samples with resin to coat gold injector-detector contacts, and soldering wiring to sample contacts.
+ \item In Jupyter notebooks, create visuals for simple 2D diffusion simulations using PDE numerical methods with varying initial and Dirichlet-Neumann boundary conditions using Python.
+ \item Use COMSOL Multiphysics to design 2D magnon diffusion simulations in a magnetic insulator (\ch{YIG}) by injecting spin via Spin Hall Effect for various initial and boundary conditions.
+ \item \textbf{Extensive} research, summarization, and presenting on successful literature to give direction for research.
+
+\end{workSection}
+
+\end{Section}
+
+%----------------------
+%	EDUCATION SECTION
+%----------------------
+\begin{Section}{Education}
+
+%-----------------
+%   UC Berkeley
+%-----------------
+
+\begin{eduSection}{University of California, Berkeley}{May 2021}{B.A., Physics}{Berkeley, CA}
+\item \textbf{GPA: 3.59 / 4.0}; \textit{Cum Laude}, Regents’ and Chancellor’s Scholarship
+\end{eduSection}
+
+%---------------------
+%   Cuyamaca College
+%---------------------
+
+\begin{eduSection}{Cuyamaca College}{May 2019}{A.A., Physics; A.A., Mathematics; A.A., University Studies - Science and Mathematics}{Rancho San Diego, CA}
+ \item \textbf{GPA: 3.94/4.0}; President’s Honor List; Phi Theta Kappa Honors Society, Omicron Chapter (\textit{President}); STEM Club (\textit{Senator}); Physics Tutor 
+\end{eduSection}
+
+\end{Section}
+
+%------------------------------------------------
+%   CERTIFICATIONS, SKILLS \& INTERESTS SECTION
+%------------------------------------------------
+
+\begin{Section}{CERTIFICATIONS, SKILLS \& INTERESTS}
+
+\begin{csiSection}{Microsoft Certified Azure Data Scientist Associate, AWS Certified Cloud Practitioner}{analytical, critical and abstract thinking; problem solving; data processing, analysis and visualization; statistical analysis; machine learning; advanced mathematics; advanced physics; literature reviews; project documentation; research skills; presentation skills; reading comprehension; technical writing; \textbf{Azure:} DevOps, Databricks, Machine Learning, and Data Factory; Power BI; GitHub; LaTex; Python; PySpark}{Listening to music; running, swimming, and hiking; reading e-books; watching movies; playing guitar}
+\end{csiSection}
+
+\end{Section}
+
+%--------------------
+%   FOOTNOTE LINKS
+%--------------------
+
+\hfil \blfootnote{\footnotesize \textcolor{gray}{\textit{LinkedIn: http://www.linkedin.com/in/armando-arevalo-7042041ab; GitHub: https://github.com/a-arev}}} \hfil
+
+
+%---------------------------------------------------------------------------------
+%   END OF DOCUMENT
+%---------------------------------------------------------------------------------
+
+\end{document}
+
