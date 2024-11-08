@@ -113,7 +113,7 @@
  {\bf #1} \hfill {\bf #2} % Bold school name and grad date on rightside
  \ifthenelse{\equal{#3}{}}{}{ % If third argument is not defined, don't show degree name and location line
   \\
-  {\em #3} \hfill {\em #4} % Italicize degree name and location
+  {\em #3} \hfill {\em #4}  % Italicize degree name and location
   }\smallskip
   \begin{list}{\tiny $\blacksquare$}{\leftmargin=1 em} % squares used for bullets
    \itemsep -0.5 em \vspace{-0.9em} % Adjust spacing for items in list
@@ -136,7 +136,7 @@
   \smallskip
   }{
   \end{list}
-  \vspace{0.5em} % No space after list of bullet points
+  \vspace{-0.0em} % No space after list of bullet points
 }
 
 
