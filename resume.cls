@@ -7,6 +7,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{CormorantGaramond} % Garamond font
 \usepackage[parfill]{parskip} % Remove paragraph indentation
+\setlength{\parfillskip}{0\p@ \@plus 1fil}
 \usepackage{bbding}
 \pagestyle{empty} % Remove page numbers
 
@@ -97,7 +98,7 @@
   \\
   {\em #4} \hfill {\em #5} % Italicize job title and location
   }\smallskip
-  \begin{list}{\tiny $\blacksquare$}{\leftmargin=1 em} % squares used for bullets
+  \begin{list}{\tiny $\blacksquare$}{\leftmargin=1 em} % Squares used for bullets
    \itemsep -0.5em \vspace{-0.9em} % Adjust spacing for items in list
   }{
   \end{list}
