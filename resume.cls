@@ -97,7 +97,7 @@
   \\
   {\em #4} \hfill {\em #5} % Italicize job title and location
   }\smallskip
-  \begin{list}{\fontsize{0.4 em}$\blacksquare$}{\leftmargin=1 em} % squares used for bullets
+  \begin{list}{\tiny $\blacksquare$}{\leftmargin=1 em} % squares used for bullets
    \itemsep -0.5em \vspace{-0.9em} % Adjust spacing for items in list
   }{
   \end{list}
@@ -115,7 +115,7 @@
   \\
   {\em #3} \hfill {\em #4} % Italicize degree name and location
   }\smallskip
-  \begin{list}{\fontsize{0.4 em}$\blacksquare$}{\leftmargin=1 em} % squares used for bullets
+  \begin{list}{\tiny $\blacksquare$}{\leftmargin=1 em} % squares used for bullets
    \itemsep -0.5 em \vspace{-0.9em} % Adjust spacing for items in list
   }{
   \end{list}
@@ -128,7 +128,7 @@
 
 \newenvironment{csiSection}[3]{ % 2 input arguments - List of certifications and list of skills
 
-  \begin{list}{\fontsize{0.4 em}$\blacksquare$}{\leftmargin=1 em} % squares used for bullets
+  \begin{list}{\tiny $\blacksquare$}{\leftmargin=1 em} % squares used for bullets
    \itemsep -0.5em \vspace{-0.0em} % Adjust spacing for items in list 
   \item {\textbf{Certifications:} #1} 
   \item {\textbf{Skills:} #2} 
